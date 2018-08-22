@@ -45,7 +45,7 @@ def create_app(type):
     Session(app)
 
     # 初始化迁移器
-    Migrate(app)
+    Migrate(app,db)
 
     # 注册蓝图
     from info.modules.home import home_blu
