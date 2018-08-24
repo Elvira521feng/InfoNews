@@ -72,6 +72,14 @@ class User(BaseModel, db.Model):
         }
         return resp_dict
 
+    @property
+    def password(self):
+        raise ArithmeticError("该属性是计算属性,不能直接取值")
+
+    @password.setter
+    def password(self, value):
+        self.password_hash = generate_password_hash(value)
+
     def to_admin_dict(self):
         resp_dict = {
             "id": self.id,

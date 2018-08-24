@@ -49,7 +49,9 @@ def create_app(type):
 
     # 注册蓝图
     from info.modules.home import home_blu
+    from info.modules.passport import passport_blu
     app.register_blueprint(home_blu)
+    app.register_blueprint(passport_blu)
 
     # 配置日志文件
     set_log()
