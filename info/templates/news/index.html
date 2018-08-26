@@ -91,7 +91,7 @@
         </div>
         <ul class="rank_list">
             {% for rank in rank_list %}
-            <li><span class="{{ loop.index | index_convert }}">{{ loop.index }}</span><a href="/news/1">{{ rank_list.title }}</a></li>
+            <li><span class="{{ loop.index | index_convert }}">{{ loop.index }}</span><a href="/news/1">{{ rank.title }}</a></li>
             {% endfor %}
         </ul>
     </div>

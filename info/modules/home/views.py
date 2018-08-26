@@ -67,7 +67,7 @@ def get_news_list():
 
     filter_list = []
     if cid != 1:
-        filter_list = [Category.id==cid]
+        filter_list = [News.category_id == cid]
 
     # 从数据库中取出新闻列表
     try:
