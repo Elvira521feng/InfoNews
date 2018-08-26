@@ -1,26 +1,17 @@
-from info.common import rank_select
+from info.common import rank_select, user_login_data
 from info.constants import HOME_PAGE_MAX_NEWS
 from info.models import User, Category, News
 from info.modules.home import home_blu
-from flask import render_template, current_app, session, jsonify, request
+from flask import render_template, current_app, session, jsonify, request, g
 
 from info.utils.response_code import RET, error_map
 
 
 @home_blu.route("/")
+@user_login_data
 def index():
-    # 获取session的值判断用户是否登录
-    user_id = session.get("user_id")
-
-    user = None
-    if user_id:
-        try:
-            user = User.query.get(user_id)
-        except BaseException as e:
-            current_app.logger.error(e)
-
     # 将用户登录信息传到模板中
-    user = user.to_dict() if user else None
+    user = g.user.to_dict() if g.user else None
 
     # 获得数据库中的新闻分类
     categories = []

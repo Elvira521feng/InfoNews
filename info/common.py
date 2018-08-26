@@ -1,8 +1,10 @@
 # 定义索引转换器
-from flask import current_app
+import functools
+
+from flask import current_app, session, g
 
 from info.constants import CLICK_RANK_MAX_NEWS
-from info.models import News
+from info.models import News, User
 
 
 def index_convert(index):
@@ -21,3 +23,20 @@ def rank_select():
 
     return rank_list
 
+
+# 登录前判断是否登录
+def user_login_data(f):
+    @functools.wraps(f)
+    def wrapper(*args, **kwargs):
+        user_id = session.get("user_id")
+        user = None
+        if user_id:
+            try:
+                user = User.query.get(user_id)
+            except BaseException as e:
+                current_app.logger.error(e)
+
+        g.user = user
+
+        return f(*args, **kwargs)
+    return wrapper
