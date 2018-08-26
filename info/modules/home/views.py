@@ -22,6 +22,7 @@ def index():
     user = user.to_dict() if user else None
 
     # 获得数据库中的新闻分类
+    categories = []
     try:
         categories = Category.query.all()
     except BaseException as e:
@@ -30,7 +31,7 @@ def index():
     # 获取新闻排名列表
     rank_list = []
     try:
-        rank_list = News.query.order_by(News.clicks.desc()).limit(CLICK_RANK_MAX_NEWS)
+        rank_list = News.query.order_by(News.clicks.desc()).limit(CLICK_RANK_MAX_NEWS).all()
     except BaseException as e:
         current_app.logger.error(e)
 

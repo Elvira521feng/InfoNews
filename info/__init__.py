@@ -8,6 +8,8 @@ from logging.handlers import RotatingFileHandler
 from config import config_dict
 
 # 将数据库操作对象全局话,方便其他文件操作数据库
+from info.common import index_convert
+
 db = None
 sr = None
 
@@ -58,6 +60,9 @@ def create_app(type):
 
     # 让模型文件和主程序建立关系
     from info import models
+
+    # 添加自定义的过滤器
+    app.add_template_filter(index_convert, "index_convert")
 
     return app
 
