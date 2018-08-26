@@ -40,7 +40,11 @@ def login():
     if not user.check_password(password):
         return jsonify(errno=RET.PARAMERR, errmsg=error_map[RET.PARAMERR])
 
+    # 免密登录
     session["user_id"] = user.id
+
+    # 记录用户最后登录时间
+    user.last_login = datetime.now()
 
     return jsonify(errno=RET.OK, errmsg=error_map[RET.OK])
 

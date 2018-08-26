@@ -25,6 +25,9 @@ class Config(object):
     # 设置session存储时间
     PERMANENT_SESSION_LIFETIME = timedelta(days=7)
 
+    # 设置数据发生修改后自动提交
+    SQLALCHEMY_COMMIT_ON_TEARDOWN = True
+
 
 class DeveloperConfig(Config):
     """定义开发环境的配置"""
