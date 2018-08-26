@@ -1,4 +1,5 @@
-from info.constants import CLICK_RANK_MAX_NEWS, HOME_PAGE_MAX_NEWS
+from info.common import rank_select
+from info.constants import HOME_PAGE_MAX_NEWS
 from info.models import User, Category, News
 from info.modules.home import home_blu
 from flask import render_template, current_app, session, jsonify, request
@@ -29,12 +30,7 @@ def index():
         current_app.logger.error(e)
 
     # 获取新闻排名列表
-    rank_list = []
-    try:
-        rank_list = News.query.order_by(News.clicks.desc()).limit(CLICK_RANK_MAX_NEWS).all()
-    except BaseException as e:
-        current_app.logger.error(e)
-
+    rank_list = rank_select()
     rank_list = [news.to_basic_dict() for news in rank_list]
 
     return render_template("news/index.html", user=user, categories=categories, rank_list=rank_list)
@@ -52,7 +48,7 @@ def get_news_list():
     cur_page = request.args.get("cur_page")
     cid = request.args.get("cid")
     per_count = request.args.get("per_count", HOME_PAGE_MAX_NEWS)
-    print(cur_page, cid, per_count)
+
     # 校验参数
     if not all([cur_page, cid, per_count]):
         return jsonify(errno=RET.PARAMERR, errmsg=error_map[RET.PARAMERR])
@@ -75,13 +71,13 @@ def get_news_list():
     except BaseException as e:
         return jsonify(errno=RET.DBERR, errmsg=error_map[RET.DBERR])
 
-
     # 封装成json
     data = {
         "news_list": [news.to_dict() for news in pn.items],
         "total_page": pn.pages
     }
-    print(data)
 
     return jsonify(errno=RET.OK, errmsg=error_map[RET.OK], data=data)
+
+
 

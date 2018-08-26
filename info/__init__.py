@@ -8,8 +8,6 @@ from logging.handlers import RotatingFileHandler
 from config import config_dict
 
 # 将数据库操作对象全局话,方便其他文件操作数据库
-from info.common import index_convert
-
 db = None
 sr = None
 
@@ -52,8 +50,10 @@ def create_app(type):
     # 注册蓝图
     from info.modules.home import home_blu
     from info.modules.passport import passport_blu
+    from info.modules.news import news_blu
     app.register_blueprint(home_blu)
     app.register_blueprint(passport_blu)
+    app.register_blueprint(news_blu)
 
     # 配置日志文件
     set_log()
@@ -62,6 +62,7 @@ def create_app(type):
     from info import models
 
     # 添加自定义的过滤器
+    from info.common import index_convert
     app.add_template_filter(index_convert, "index_convert")
 
     return app
