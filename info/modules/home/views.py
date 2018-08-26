@@ -1,7 +1,7 @@
 from info.constants import CLICK_RANK_MAX_NEWS
 from info.models import User, Category, News
 from info.modules.home import home_blu
-from flask import render_template, current_app, session
+from flask import render_template, current_app, session, jsonify
 
 
 @home_blu.route("/")
@@ -45,5 +45,5 @@ def get_favicon():
 
 @home_blu.route('/get_news_list')
 def get_news_list():
-    return ""
+    return jsonify()
 

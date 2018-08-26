@@ -72,14 +72,6 @@ class User(BaseModel, db.Model):
         }
         return resp_dict
 
-    @property
-    def password(self):
-        raise ArithmeticError("该属性是计算属性,不能直接取值")
-
-    @password.setter
-    def password(self, value):
-        self.password_hash = generate_password_hash(value)
-
     def to_admin_dict(self):
         resp_dict = {
             "id": self.id,
@@ -89,6 +81,21 @@ class User(BaseModel, db.Model):
             "last_login": self.last_login.strftime("%Y-%m-%d %H:%M:%S"),
         }
         return resp_dict
+
+    # 密码加密
+    @property
+    def password(self):
+        raise ArithmeticError("该属性是计算属性,不能直接取值")
+
+    @password.setter
+    def password(self, value):
+        self.password_hash = generate_password_hash(value)
+
+    # 校验密码
+    def check_password(self, password):
+        return check_password_hash(self.password_hash, password)
+
+
 
 
 class News(BaseModel, db.Model):

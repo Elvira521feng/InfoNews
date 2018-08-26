@@ -12,9 +12,38 @@ from info.utils.captcha.pic_captcha import captcha
 from info.utils.response_code import RET, error_map
 
 
-@passport_blu.route("/login")
+@passport_blu.route("/login", methods=["GET", "POST"])
 def login():
-    return render_template()
+    # 获取参数
+    mobile = request.json.get("mobile")
+    password = request.json.get("password")
+
+    # 校验参数
+    if not all([mobile, password]):
+        return jsonify(errno=RET.PARAMERR, errmsg=error_map[RET.PARAMERR])
+    if not re.match(r"1[35678]\d{9}$", mobile):
+        return jsonify(errno=RET.PARAMERR, errmsg=error_map[RET.PARAMERR])
+
+    user = None
+
+    # 根据手机号从数据库中取出user
+    try:
+        user = User.query.filter_by(mobile=mobile).first()
+    except BaseException as e:
+        current_app.logger.error(e)
+
+    # 判断用户是否注册
+    if not user:
+        return jsonify(errno=RET.USERERR, errmsg=error_map[RET.USERERR])
+
+    # 判断密码是否正确
+    if not user.check_password(password):
+        return jsonify(errno=RET.PARAMERR, errmsg=error_map[RET.PARAMERR])
+
+    session["user_id"] = user.id
+
+    return jsonify(errno=RET.OK, errmsg=error_map[RET.OK])
+
 
 # 返回图片验证码
 @passport_blu.route('/get_img_code')
@@ -54,6 +83,7 @@ def get_sms_code():
 
     # 校验参数
     if not all([img_code_id, mobile, img_code]):
+        # 返回参数错误
         return jsonify(errno=RET.PARAMERR, errmsg=error_map[RET.PARAMERR])
 
     if not re.match(r"1[35678]\d{9}$", mobile):
@@ -64,6 +94,7 @@ def get_sms_code():
         user = User.query.filter_by(mobile=mobile).first()
     except BaseException as e:
         current_app.logger.error(e)
+        # 返回数据库查询错误
         return jsonify(errno=RET.DBERR, errmsg=error_map[RET.DBERR])
 
     # 判断用户是否已经注册
@@ -158,6 +189,15 @@ def register():
 
     # 返回响应
     return jsonify(errno=RET.OK, errmsg=error_map[RET.OK])
+
+
+# 退出
+def logout():
+    # 删除session
+    session.pop("user_id", None)
+    return jsonify(errno=RET.OK, errmsg=error_map[RET.OK])
+
+
 
 
 
