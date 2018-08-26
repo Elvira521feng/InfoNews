@@ -75,11 +75,13 @@ def get_news_list():
     except BaseException as e:
         return jsonify(errno=RET.DBERR, errmsg=error_map[RET.DBERR])
 
+
     # 封装成json
     data = {
         "news_list": [news.to_dict() for news in pn.items],
         "total_page": pn.pages
     }
+    print(data)
 
     return jsonify(errno=RET.OK, errmsg=error_map[RET.OK], data=data)
 

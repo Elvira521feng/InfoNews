@@ -196,6 +196,7 @@ def register():
 
 
 # 退出
+@passport_blu.route('/logout')
 def logout():
     # 删除session
     session.pop("user_id", None)
