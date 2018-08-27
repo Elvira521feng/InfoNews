@@ -10,7 +10,6 @@ class BaseModel(object):
     update_time = db.Column(db.DateTime, default=datetime.now, onupdate=datetime.now)  # 记录的更新时间
 
 
-
 # 用户收藏表，建立用户与其收藏新闻多对多的关系
 tb_user_collection = db.Table(
     "info_user_collection",
@@ -57,7 +56,6 @@ class User(BaseModel, db.Model):
 
     # 当前用户所发布的新闻
     news_list = db.relationship('News', backref='user', lazy='dynamic')
-
 
     def to_dict(self):
         resp_dict = {
