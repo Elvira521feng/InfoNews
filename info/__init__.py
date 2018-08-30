@@ -49,11 +49,13 @@ def create_app(type):
 
     # 注册蓝图
     from info.modules.home import home_blu
-    from info.modules.passport import passport_blu
-    from info.modules.news import news_blu
     app.register_blueprint(home_blu)
+    from info.modules.passport import passport_blu
     app.register_blueprint(passport_blu)
+    from info.modules.news import news_blu
     app.register_blueprint(news_blu)
+    from info.modules.user import user_blu
+    app.register_blueprint(user_blu)
 
     # 配置日志文件
     set_log()

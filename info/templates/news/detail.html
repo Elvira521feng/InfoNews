@@ -60,7 +60,6 @@
                <a href="javascript:;" class="comment_up fr {% if comment.is_comment_like %} has_comment_up {% endif %}" data-commentid="{{ comment.id }}"
                        data-newsid="{{ news.id }}" data-likecount="{{ comment.like_count }}">{% if comment.like_count == 0 %}赞{% else %}{{ comment.like_count }}{% endif %}</a>
                 <a href="javascript:;" class="comment_reply fr">回复</a>
-                <!-- TODO 回复评论 注意替换评论id和新闻id -->
                 <from class="reply_form fl" data-commentid="{{ comment.id }}" data-newsid="{{ news.id }}">
                     <textarea class="reply_input"></textarea>
                     <input type="submit" name="" value="回复" class="reply_sub fr">
