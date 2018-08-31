@@ -23,14 +23,13 @@ $(function () {
         }
 
         $.ajax({
-            url: "/user/pass_info",
+            url: "/user/user_pass_info",
             type: "post",
             contentType: "application/json",
             data: JSON.stringify(params),
             success: function (resp) {
                 if (resp.errno == "0") {
                     // 修改成功
-                    alert("修改成功")
                     window.location.reload()
                 }else {
                     alert(resp.errmsg)
