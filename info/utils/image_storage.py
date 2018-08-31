@@ -19,6 +19,7 @@ def upload_img(data):
         raise BaseException(info)
 
 
+
 if __name__ == '__main__':
     with open("test.jpg", "rb") as f:
         img_bytes = f.read()

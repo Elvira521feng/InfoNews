@@ -1,6 +1,7 @@
-from flask import g, redirect, render_template, jsonify, request
+from flask import g, redirect, render_template, jsonify, request, current_app
 from info.common import user_login_data
 from info.modules.user import user_blu
+from info.utils.image_storage import upload_img
 from info.utils.response_code import RET, error_map
 
 
@@ -11,7 +12,7 @@ def index():
     if not user:
         return redirect("/")
 
-    return render_template("user/user.html", user=user)
+    return render_template("user/user.html", user=user.to_dict())
 
 
 # 查看/修改个人基本信息
@@ -47,17 +48,33 @@ def user_info():
 
 
 # 查看修改头像
-@user_blu.route('/user_pic_info')
+@user_blu.route('/pic_info', methods=["GET", "POST"])
 @user_login_data
-def user_pic_info():
+def pic_info():
     # 判断用户是否登录
     user = g.user
     if not user:
         return redirect("/")
-    user = user.to_dict()
 
+    if request.method == "GET":
+        return render_template("user/user_pic_info.html", user=user.to_dict())
 
-    return render_template("user/user_pic_info.html", user=user)
+    try:
+        img_bytes = request.files.get("avatar").read()
+    except BaseException as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.PARAMERR, errmsg=error_map[RET.PARAMERR])
+
+    try:
+        file_name = upload_img(img_bytes)
+        print(file_name)
+    except BaseException as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.THIRDERR, errmsg=error_map[RET.THIRDERR])
+
+    user.avatar_url = file_name
+
+    return jsonify(errno=RET.OK, errmsg=error_map[RET.OK], data=user.to_dict())
 
 
 # 修改密码
@@ -85,3 +102,6 @@ def user_pass_info():
     user.password = new_password
 
     return render_template("user/user_pass_info.html", user=user)
+
+
+#

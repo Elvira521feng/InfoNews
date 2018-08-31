@@ -24,8 +24,12 @@
         {% endblock %}
         {% if user %}
             <div class="user_login fr">
+            {% if user.avatar_url %}
+                <img src="{{ user.avatar_url }}" class="lgin_pic">
+            {% else %}
                 <img src="../../static/news/images/person01.png" class="lgin_pic">
-                <a href="/user/" id="nick_name">{{ user.nick_name }}</a>
+            {% endif %}
+                <a href="{{ url_for("user.index") }}" id="nick_name">{{ user.nick_name }}</a>
                 <a href="javascript:;" onclick="logout()">退出</a>
             </div>
         {% else %}
