@@ -64,7 +64,7 @@ def news_details(news_id):
         comment_dict['is_comment_like'] = is_comment_like
         comment_list.append(comment_dict)
 
-    return render_template("news/detail.html", news=news.to_dict(), rank_list=rank_list, user=user, comment_list=comment_list, is_collected=is_collected)
+    return render_template("news/detail.html", news=news.to_dict(), rank_list=rank_list, user=user.to_dict(), comment_list=comment_list, is_collected=is_collected)
 
 
 # 收藏新闻

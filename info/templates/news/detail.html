@@ -18,14 +18,18 @@
             <span class="comment fr">{{ news.comments_count }}</span>
         </div>
         {{ news.content | safe }}
-        <a href="javascript:;" class="collection block-center" data-newid="{{ news.id }}" style="display: block;">收藏</a>
-        <a href="javascript:;" class="collected block-center" data-newid="{{ news.id }}" style="display: none;">
-        <span class="out">已收藏</span><span class="over">取消收藏</span></a>
+        <a href="javascript:;" class="collection block-center" data-newid="{{ news.id }}" style="display: {% if is_collected %}block {% else %} None {% endif %};"  >收藏</a>
+        <a href="javascript:;" class="collected block-center" data-newid="{{ news.id }}"style="display: {% if not is_collected %}block {% else %} None {% endif %};" >
+        <span class="out" >已收藏</span><span class="over">取消收藏</span></a>
 
     {% if user %}
         <form action="" class="comment_form" data-newsid="{{ news.id }}">
             <div class="person_pic">
-                <img src="../../static/news/images/cat.jpg" alt="用户图标">
+                {% if user.avatar_url %}
+                <img src="{{ user.avatar_url }}" alt="用户图标">
+            {% else %}
+                <img src="../../static/news/images/person01.png" alt="用户图标">
+            {% endif %}
             </div>
             <textarea placeholder="请发表您的评论" class="comment_input"></textarea>
             <input type="submit" name="" value="评 论" class="comment_sub">
@@ -73,13 +77,15 @@
 {% endblock %}
 
 {% block author_block %}
+    {% if news.author %}
         <div class="author_card">
             <a href="#" class="author_pic"><img src="../../static/news/images/user_pic.png" alt="author_pic"></a>
-            <a href="#" class="author_name">张大山</a>
-            <div class="author_resume">张大山的简介,张大山</div>
-            <div class="writings"><span>总篇数</span><b>23</b></div>
-            <div class="follows"><span>粉丝</span><b>36</b></div>
+            <a href="#" class="author_name">{{ news.author.nick_name }}</a>
+            <div class="author_resume">{{ news.author.nick_name }}的简介,{{ news.author.signature }}</div>
+            <div class="writings"><span>总篇数</span><b>{{ news.author.news_count }}</b></div>
+            <div class="follows"><span>粉丝</span><b>{{ news.author.followers_count }}</b></div>
             <a href="javascript:;" class="focus fr">关注</a>
             <a href="javascript:;" class="focused fr"><span class="out">已关注</span><span class="over">取消关注</span></a>
         </div>
+    {% endif %}
 {% endblock %}
