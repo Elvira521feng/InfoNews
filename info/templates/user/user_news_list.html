@@ -14,24 +14,22 @@
     <div class="news_list">
         <h3>新闻列表</h3>
         <ul class="article_list">
-            <li><a href="user_news_release.html">智能音箱“不智能”：这次轮到三星语音助手Bixby被吐槽了</a><em class="pass">已通过</em><span>2018-1-17</span></li>
-            <li><a href="#">智能音箱“不智能”：这次轮到三星语音助手Bixby被吐槽了</a><em class="pass">已通过</em><span>2018-1-17</span></li>
-            <li><a href="#">智能音箱“不智能”：这次轮到三星语音助手Bixby被吐槽了</a><em class="review">审核中</em><span>2018-1-17</span></li>
-            <li><a href="#">智能音箱“不智能”：这次轮到三星语音助手Bixby被吐槽了</a><em class="review">审核中</em><span>2018-1-17</span></li>
+            {% for news in data.news_list %}
+            {% if news.status == 0 %}
+            <li><a href="user_news_release.html">{{ news.title }}</a><em class="pass">已通过</em><span>{{ news.create_time }}</span></li>
+            {% elif news.status == 1%}
+            <li><a href="#">{{ news.title }}</a><em class="review">审核中</em><span>{{ news.create_time }}</span></li>
+            {% else %}
             <li>
-                <a href="#">智能音箱“不智能”：这次轮到三星语音助手Bixby被吐槽了</a>
+                <a href="#">{{ news.title }}</a>
                 <em class="nopass">未通过</em>
-                <span>2018-1-17</span>
-                <b>未通过原因：因为写的太boring,因为写的太boring,因为写的太boring,因为写的太boring,</b>
+                <span>2{{ news.create_time }}</span>
+                <b>{{ news.reason }}</b>
             </li>
-            <li>
-                <a href="#">智能音箱“不智能”：这次轮到三星语音助手Bixby被吐槽了</a>
-                <em class="nopass">未通过</em>
-                <span>2018-1-17</span>
-                <b>未通过原因：因为写的太煽情,因为写的太煽情,因为写的太煽情,因为写的太煽情,</b>
-            </li>
+            {% endif %}
+        {% endfor %}
         </ul>
-        <div id="pagination" class="page" cur_page="1" total_page="3" source="/user/news_list"></div>
+        <div id="pagination" class="page" cur_page="data.cur_page" total_page="dtat.total_page" source="{{ url_for("user.news_list") }}"></div>
     </div>
 </body>
 </html>
