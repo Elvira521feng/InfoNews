@@ -1,9 +1,9 @@
 from flask import g, redirect, render_template, jsonify, request, current_app, abort
 
-from info import db
+from info import db, constants
 from info.common import user_login_data
-from info.constants import USER_COLLECTION_MAX_NEWS
-from info.models import News, tb_user_collection, Category
+from info.constants import USER_COLLECTION_MAX_NEWS, USER_FOLLOWED_MAX_COUNT
+from info.models import News, tb_user_collection, Category, User
 from info.modules.user import user_blu
 from info.utils.image_storage import upload_img
 from info.utils.response_code import RET, error_map
@@ -144,6 +144,7 @@ def user_collection():
     return render_template("user/user_collection.html", data=data)
 
 
+# 发布新闻
 @user_blu.route('/news_release', methods=["GET", "POST"])
 @user_login_data
 def news_release():
@@ -173,14 +174,11 @@ def news_release():
         current_app.logger.error(e)
         return jsonify(errno=RET.PARAMERR, errmsg=error_map[RET.PARAMERR])
 
-    print(title, category_id, digest, img_bytes, content)
-
     if not all([title, category_id, digest, img_bytes, content]):
         return jsonify(errno=RET.PARAMERR, errmsg=error_map[RET.PARAMERR])
 
     try:
         file_name = upload_img(img_bytes)
-        print(file_name)
     except BaseException as e:
         current_app.logger.error(e)
         return jsonify(errno=RET.THIRDERR, errmsg=error_map[RET.THIRDERR])
@@ -196,7 +194,7 @@ def news_release():
     news.digest = digest
     news.category_id = category_id
     news.content = content
-    news.index_image_url = file_name
+    news.index_image_url = constants.QINIU_DOMIN_PREFIX + file_name
 
     # 设置其他属性
     news.user_id = user.id
@@ -208,6 +206,7 @@ def news_release():
     return jsonify(errno=RET.OK, errmsg=error_map[RET.OK])
 
 
+# 显示自己发布的新闻
 @user_blu.route('/news_list')
 @user_login_data
 def news_list():
@@ -242,4 +241,78 @@ def news_list():
     }
 
     return render_template("user/user_news_list.html", data=data)
+
+
+@user_blu.route('/followed_user', methods=["GET", "POST"])
+@user_login_data
+def followed_user():
+    # 判断用户是否登录
+    user = g.user
+    if not user:
+        return abort(404)
+
+    if request.method == "GET":
+        page = request.args.get("p", 1)
+
+        try:
+            page = int(page)
+        except BaseException as e:
+            current_app.logger.error(e)
+            page = 1
+
+        # 将当前用户的所有收藏传到模板中
+        user_list = []
+        total_page = 1
+        try:
+            pn = user.followed.paginate(page,USER_FOLLOWED_MAX_COUNT)
+            user_list = pn.items
+            total_page = pn.pages
+        except BaseException as e:
+            current_app.logger.error(e)
+
+        data = {
+            "user_list": [user.to_dict() for user in user_list],
+            "cur_page": page,
+            "total_page": total_page
+        }
+        print(data)
+
+        return render_template("user/user_follow.html", data=data)
+
+    action = request.json.get("action")
+    user_id = request.json.get("user_id")
+    print(action, user_id)
+
+    if not all([action, user_id]):
+        return jsonify(errno=RET.PARAMERR, errmsg=error_map[RET.PARAMERR])
+
+    if action not in ["follow", "unfollow"]:
+        return jsonify(errno=RET.PARAMERR, errmsg=error_map[RET.PARAMERR])
+
+    try:
+        user_id = int(user_id)
+    except BaseException as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.PARAMERR, errmsg=error_map[RET.PARAMERR])
+
+    try:
+        author = User.query.get(user_id)
+    except BaseException as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DBERR, errmsg=error_map[RET.DBERR])
+
+    if action == "follow":
+        if author not in user.followed:
+            user.followed.append(author)
+    else:
+        if author in user.followed:
+            user.followed.remove(author)
+
+    return jsonify(errno=RET.OK, errmsg=error_map[RET.OK])
+
+
+
+
+
+
 

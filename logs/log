@@ -3090,3 +3090,794 @@ INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_i
 INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 20:32:00] "GET /user/user_pass_info HTTP/1.1" 200 -
 INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 20:32:02] "GET /user/pic_info HTTP/1.1" 200 -
 INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 20:32:02] "GET /user/user_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/elvira/桌面/myRepository/InfoNews/info/modules/user/views.py', reloading
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 168-559-174
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:31:52] "GET / HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:31:52] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:32:05] "GET / HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:32:06] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:32:06] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 168-559-174
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:35:16] "GET / HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:35:16] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:35:16] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:35:16] "GET /FhrA0q4e18Gky0U07mAJWcTNTlJW?imageView2/1/w/170/h/170 HTTP/1.1" 404 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:35:20] "GET /user/ HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:35:20] "GET /user/user_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:35:22] "GET /user/user_collection HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:35:24] "GET /user/news_release HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:35:26] "GET /user/news_list HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:35:26] "GET /user/news_list HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:36:26] "GET /user/ HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:36:27] "GET /user/user_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:36:27] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:36:33] "GET / HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:36:33] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:45:44] "GET /user/ HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:45:44] "GET /user/user_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:45:46] "GET /user/news_release HTTP/1.1" 200 -
+DEBUG /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/urllib3/util/retry.py:210 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/urllib3/connectionpool.py:205 Starting new HTTP connection (1): up.qiniu.com:80
+DEBUG /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/urllib3/connectionpool.py:393 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:46:20] "POST /user/news_release HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:46:20] "GET /user/news_list HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/elvira/桌面/myRepository/InfoNews/info/modules/user/views.py', reloading
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 168-559-174
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:47:19] "GET / HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:47:19] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:47:24] "GET /passport/logout HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:47:24] "GET / HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:47:24] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:47:39] "GET /passport/get_img_code?img_code_id=24d856f5-f2e1-45dd-848f-b78cfc953d7b HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:47:53] "GET /passport/get_img_code?img_code_id=fa5318a4-ab1d-4514-9b2f-bdaa94cd20c5 HTTP/1.1" 200 -
+INFO /home/elvira/桌面/myRepository/InfoNews/info/modules/passport/views.py:129 短信验证码为:5323
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:48:04] "POST /passport/get_sms_code HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:48:22] "POST /passport/register HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:48:22] "GET / HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:48:22] "GET /static/news/images/person01.png HTTP/1.1" 304 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:48:22] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:48:24] "GET /news/1157 HTTP/1.1" 500 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:48:24] "GET /news/1157?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:48:24] "GET /news/1157?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:48:24] "GET /news/1157?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:48:24] "GET /news/1157?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:48:24] "GET /news/1157?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 168-559-174
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:49:27] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:49:27] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:52:07] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:52:07] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:52:13] "POST /news/followed_user HTTP/1.1" 404 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:53:34] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:53:34] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:53:35] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:53:36] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:53:36] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:53:36] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:53:38] "POST /news/followed_user HTTP/1.1" 404 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 168-559-174
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:54:55] "GET / HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:54:55] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:54:58] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:54:59] "POST /news/followed_user HTTP/1.1" 404 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:56:28] "POST /news/news_comment HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:56:28] "GET /static/news/images/reply_icon.png HTTP/1.1" 304 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:56:28] "GET /static/news/images/zan_icon.png HTTP/1.1" 304 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 21:56:28] "GET /images/person01.png HTTP/1.1" 404 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:01:32] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:01:32] "GET /static/news/images/worm.jpg HTTP/1.1" 304 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:01:32] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:01:45] "GET /user/ HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:01:45] "GET /user/user_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:01:48] "GET /user/pic_info HTTP/1.1" 200 -
+DEBUG /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/urllib3/util/retry.py:210 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/urllib3/connectionpool.py:205 Starting new HTTP connection (1): up.qiniu.com:80
+DEBUG /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/urllib3/connectionpool.py:393 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:01:56] "POST /user/pic_info HTTP/1.1" 200 -
+DEBUG /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/urllib3/connectionpool.py:393 http://up.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:01:58] "POST /user/pic_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:02:03] "GET /user/ HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:02:03] "GET /user/user_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:02:05] "GET / HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:02:05] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:02:06] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:02:11] "POST /news/news_comment HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:02:27] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:02:27] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:02:31] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:02:31] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:04:55] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:04:55] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:04:56] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:04:56] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:04:57] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:04:57] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:04:57] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:04:58] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:04:58] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:04:58] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:05:07] "POST /news/news_comment HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:05:09] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:05:09] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 168-559-174
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:06:59] "GET / HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:06:59] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:07:00] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:07:03] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:07:03] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 168-559-174
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:08:08] "GET / HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:08:08] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:08:21] "POST /passport/login HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:08:21] "GET / HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:08:21] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:08:23] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:08:25] "POST /news/followed_user HTTP/1.1" 404 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 168-559-174
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:09:35] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:09:35] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [01/Sep/2018 22:09:37] "POST /news/followed_user HTTP/1.1" 404 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 282-049-504
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:53:42] "GET / HTTP/1.1" 500 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:53:42] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:53:42] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:53:42] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:53:42] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:53:42] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:13] "GET / HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:13] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:13] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:13] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:13] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:13] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:13] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:14] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:14] "GET /static/news/images/hit_icon.png HTTP/1.1" 304 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:14] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:14] "GET /favicon.ico HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:14] "GET /static/news/images/clock.png HTTP/1.1" 304 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:17] "GET /static/news/images/shutoff.png HTTP/1.1" 304 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:28] "POST /passport/login HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:28] "GET / HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:28] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:34] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:34] "GET /static/news/js/detail.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:34] "GET /static/news/images/worm.jpg HTTP/1.1" 304 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:34] "GET /static/news/images/focus_icons.png HTTP/1.1" 304 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:34] "GET /static/news/images/reply_icon.png HTTP/1.1" 304 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:34] "GET /static/news/images/zan_icon.png HTTP/1.1" 304 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:34] "GET /static/news/images/collect_icons.png HTTP/1.1" 304 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:34] "GET /static/news/images/comment_icon.png HTTP/1.1" 304 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:36] "POST /user/followed_user HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:41] "GET /user/ HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:42] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:42] "GET /user/user_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:42] "GET /static/news/js/user_base_info.js HTTP/1.1" 304 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:54:46] "GET /user/user_follow.html HTTP/1.1" 404 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:59:36] "GET / HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:59:40] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 10:59:55] "GET /user/user_follow.html HTTP/1.1" 404 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:01:23] "GET /user/user.html HTTP/1.1" 404 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:01:51] "GET /user/user_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:01:51] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:01:51] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:01:53] "GET /user/pic_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:01:53] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:01:53] "GET /static/news/js/user_pic_info.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:01:57] "GET /user/user_follow.html HTTP/1.1" 404 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:01] "GET /user/user_pass_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:01] "GET /static/news/js/user_pass_info.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:03] "GET /user/user_collection HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:03] "GET /static/news/css/jquery.pagination.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:03] "GET /static/news/js/page_control.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:03] "GET /static/news/js/jquery.pagination.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /user/news_release HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/tinymce.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/js/tinymce_setup.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/js/user_news_release.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/themes/modern/theme.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/langs/zh_CN.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/advlist/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/autolink/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/link/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/image/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/lists/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/charmap/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/print/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/preview/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/hr/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/anchor/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/pagebreak/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/spellchecker/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/searchreplace/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/wordcount/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/visualblocks/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/visualchars/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/code/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/fullscreen/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/insertdatetime/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/media/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/nonbreaking/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/save/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/table/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/contextmenu/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/directionality/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/template/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/paste/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/textcolor/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/codesample/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/imageupload/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/imageupload/css/style.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/imageupload/jquery.iframe-post-form.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/skins/lightgray/skin.min.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/imageupload/img/icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/skins/lightgray/content.min.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.woff HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/skins/lightgray/skin.min.css.map HTTP/1.1" 404 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:05] "GET /static/news/tinymce/js/tinymce/plugins/codesample/css/prism.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:09] "GET /user/news_list HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:09] "GET /static/news/css/jquery.pagination.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:15] "GET /user/news_list HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:15] "GET /static/news/css/jquery.pagination.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /user/news_release HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/themes/modern/theme.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/langs/zh_CN.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/advlist/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/autolink/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/link/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/image/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/lists/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/charmap/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/print/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/preview/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/hr/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/anchor/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/pagebreak/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/spellchecker/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/searchreplace/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/wordcount/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/visualblocks/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/visualchars/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/code/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/fullscreen/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/insertdatetime/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/media/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/nonbreaking/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/save/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/table/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/contextmenu/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/directionality/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/template/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/paste/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/textcolor/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/codesample/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/imageupload/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/imageupload/css/style.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/imageupload/jquery.iframe-post-form.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/skins/lightgray/skin.min.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/skins/lightgray/content.min.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/skins/lightgray/skin.min.css.map HTTP/1.1" 404 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:16] "GET /static/news/tinymce/js/tinymce/plugins/codesample/css/prism.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:23] "GET /user/user_collection HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:23] "GET /static/news/css/jquery.pagination.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:28] "GET / HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:28] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:28] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:28] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:28] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:28] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:28] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:28] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:28] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:28] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:28] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:31] "GET /news/149 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:31] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:31] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:31] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:31] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:31] "GET /static/news/js/detail.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:31] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:32] "GET /static/news/images/worm.jpg HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:32] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:32] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:32] "GET /static/news/images/reply_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:32] "GET /static/news/images/zan_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:32] "GET /static/news/images/collect_icons.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:32] "GET /static/news/images/comment_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:32] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:33] "POST /news/news_collect HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:36] "GET /user/ HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:36] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:36] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:36] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:36] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:36] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:36] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:36] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:36] "GET /user/user_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:36] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:39] "GET /user/user_collection HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:39] "GET /static/news/css/jquery.pagination.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:39] "GET /static/news/js/jquery.pagination.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:39] "GET /static/news/js/page_control.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:39] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:45] "GET /news/149 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /user/news_release HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/tinymce.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/js/tinymce_setup.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/js/user_news_release.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/themes/modern/theme.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/langs/zh_CN.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/advlist/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/autolink/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/link/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/image/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/lists/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/charmap/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/print/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/preview/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/hr/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/anchor/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/pagebreak/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/spellchecker/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/searchreplace/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/wordcount/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/visualblocks/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/visualchars/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/code/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/fullscreen/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/insertdatetime/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/media/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/nonbreaking/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/save/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/table/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/contextmenu/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/directionality/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/template/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/paste/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/textcolor/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/codesample/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/imageupload/plugin.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/imageupload/css/style.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/imageupload/jquery.iframe-post-form.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/skins/lightgray/skin.min.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/imageupload/img/icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/skins/lightgray/content.min.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/skins/lightgray/fonts/tinymce.woff HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/skins/lightgray/skin.min.css.map HTTP/1.1" 404 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:51] "GET /static/news/tinymce/js/tinymce/plugins/codesample/css/prism.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:02:55] "GET /user/user_follow.html HTTP/1.1" 404 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 282-049-504
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:05:41] "GET /user/ HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:05:42] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:05:42] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:05:42] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:05:42] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:05:42] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:05:42] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:05:42] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:05:42] "GET /user/user_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:05:42] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+ERROR /home/elvira/桌面/myRepository/InfoNews/info/modules/user/views.py:271 'AppenderBaseQuery' object has no attribute 'opaginate'
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:05:48] "GET /user/followed_user HTTP/1.1" 500 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:05:48] "GET /user/followed_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:05:48] "GET /user/followed_user?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:05:48] "GET /user/followed_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:05:48] "GET /user/followed_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 282-049-504
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:00] "GET /user/ HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:00] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:00] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:00] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:00] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:00] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:00] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:01] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:01] "GET /user/user_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:01] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+ERROR /home/elvira/桌面/myRepository/InfoNews/info/modules/user/views.py:271 'AppenderBaseQuery' object has no attribute 'opaginate'
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:03] "GET /user/followed_user HTTP/1.1" 500 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:03] "GET /user/followed_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:03] "GET /user/followed_user?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:03] "GET /user/followed_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:03] "GET /user/followed_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:17] "GET /user/ HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:17] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:17] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:17] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:17] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:17] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:17] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:18] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:18] "GET /user/user_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:18] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+ERROR /home/elvira/桌面/myRepository/InfoNews/info/modules/user/views.py:271 'AppenderBaseQuery' object has no attribute 'opaginate'
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:20] "GET /user/followed_user HTTP/1.1" 500 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:20] "GET /user/followed_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:20] "GET /user/followed_user?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:20] "GET /user/followed_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:20] "GET /user/followed_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 282-049-504
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:35] "GET /user/ HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:35] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:35] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:35] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:35] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:35] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:35] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:35] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:35] "GET /user/user_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:35] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+ERROR /home/elvira/桌面/myRepository/InfoNews/info/modules/user/views.py:271 'AppenderBaseQuery' object has no attribute 'opaginate'
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:36] "GET /user/followed_user HTTP/1.1" 500 -
+ERROR /home/elvira/桌面/myRepository/InfoNews/info/modules/user/views.py:271 'AppenderBaseQuery' object has no attribute 'opaginate'
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:36] "GET /user/followed_user HTTP/1.1" 500 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:36] "GET /user/followed_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:36] "GET /user/followed_user?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:36] "GET /user/followed_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:07:37] "GET /user/followed_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 282-049-504
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:08:18] "GET /user/ HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:08:18] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:08:18] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:08:18] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:08:18] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:08:18] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:08:19] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:08:19] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:08:19] "GET /user/user_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:08:19] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+ERROR /home/elvira/桌面/myRepository/InfoNews/info/modules/user/views.py:271 'AppenderBaseQuery' object has no attribute 'opaginate'
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:08:20] "GET /user/followed_user HTTP/1.1" 500 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:08:20] "GET /user/followed_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:08:20] "GET /user/followed_user?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:08:20] "GET /user/followed_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:08:21] "GET /user/followed_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 282-049-504
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:05] "GET /user/ HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:05] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:05] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:05] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:05] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:05] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:05] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:05] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:05] "GET /user/user_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:05] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+ERROR /home/elvira/桌面/myRepository/InfoNews/info/modules/user/views.py:271 'AppenderBaseQuery' object has no attribute 'opaginate'
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:06] "GET /user/followed_user HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:06] "GET /static/news/css/jquery.pagination.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:06] "GET /static/news/js/jquery.pagination.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:06] "GET /static/news/js/user_follow.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:06] "GET /static/news/js/page_control.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:13] "GET /user/ HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:13] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:13] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:13] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:13] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:13] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:13] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:13] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:13] "GET /user/user_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:13] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:16] "GET / HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:16] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:16] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:16] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:16] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:16] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:16] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:16] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:16] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:16] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:16] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:20] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:20] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:20] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:20] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:20] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:20] "GET /static/news/js/detail.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:20] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:20] "GET /static/news/images/worm.jpg HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:20] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:20] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:20] "GET /static/news/images/focus_icons.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:20] "GET /static/news/images/reply_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:20] "GET /static/news/images/zan_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:20] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:20] "GET /static/news/images/collect_icons.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:20] "GET /static/news/images/comment_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:09:23] "POST /user/followed_user HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/elvira/桌面/myRepository/InfoNews/info/modules/user/views.py', reloading
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 282-049-504
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 282-049-504
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:11:51] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:11:51] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:11:51] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:11:51] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:11:51] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:11:51] "GET /static/news/js/detail.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:11:52] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:11:52] "GET /static/news/images/worm.jpg HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:11:52] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:11:52] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:11:52] "GET /static/news/images/focus_icons.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:11:52] "GET /static/news/images/reply_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:11:52] "GET /static/news/images/zan_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:11:52] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:11:52] "GET /static/news/images/collect_icons.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:11:52] "GET /static/news/images/comment_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:11:53] "POST /user/followed_user HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 282-049-504
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:15:16] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:15:16] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:15:16] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:15:16] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:15:16] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:15:16] "GET /static/news/js/detail.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:15:16] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:15:16] "GET /static/news/images/worm.jpg HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:15:16] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:15:16] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:15:16] "GET /static/news/images/focus_icons.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:15:16] "GET /static/news/images/reply_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:15:16] "GET /static/news/images/zan_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:15:16] "GET /static/news/images/collect_icons.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:15:16] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:15:16] "GET /static/news/images/comment_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:15:18] "POST /user/followed_user HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 282-049-504
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:51] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:51] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:51] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:51] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:51] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:51] "GET /static/news/js/detail.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:51] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:51] "GET /static/news/images/worm.jpg HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:51] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:51] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:51] "GET /static/news/images/focus_icons.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:51] "GET /static/news/images/reply_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:51] "GET /static/news/images/zan_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:51] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:51] "GET /static/news/images/collect_icons.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:51] "GET /static/news/images/comment_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:52] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:52] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:52] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:52] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:52] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:52] "GET /static/news/js/detail.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:52] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:52] "GET /static/news/images/worm.jpg HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:52] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:52] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:52] "GET /static/news/images/focus_icons.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:52] "GET /static/news/images/reply_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:52] "GET /static/news/images/zan_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:52] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:52] "GET /static/news/images/collect_icons.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:52] "GET /static/news/images/comment_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:53] "POST /user/followed_user HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:55] "GET /user/ HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:55] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:55] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:55] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:55] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:55] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:55] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:55] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:55] "GET /user/user_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:17:56] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+ERROR /home/elvira/桌面/myRepository/InfoNews/info/modules/user/views.py:271 'AppenderBaseQuery' object has no attribute 'opaginate'
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:18:00] "GET /user/followed_user HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:18:00] "GET /static/news/css/jquery.pagination.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:18:00] "GET /static/news/js/jquery.pagination.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:18:00] "GET /static/news/js/user_follow.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:18:00] "GET /static/news/js/page_control.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 282-049-504
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:00] "GET /user/ HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:00] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:00] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:00] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:00] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:00] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:00] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:00] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:00] "GET /user/user_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:00] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+ERROR /home/elvira/桌面/myRepository/InfoNews/info/modules/user/views.py:271 'AppenderBaseQuery' object has no attribute 'opaginate'
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:04] "GET /user/followed_user HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:04] "GET /static/news/css/jquery.pagination.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:04] "GET /static/news/js/jquery.pagination.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:04] "GET /static/news/js/user_follow.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:04] "GET /static/news/js/page_control.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 282-049-504
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:44] "GET /user/ HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:44] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:44] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:44] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:44] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:44] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:45] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:45] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:45] "GET /user/user_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:45] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:50] "GET /user/followed_user HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:51] "GET /static/news/css/jquery.pagination.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:51] "GET /static/news/js/jquery.pagination.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:51] "GET /static/news/js/user_follow.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:19:51] "GET /static/news/js/page_control.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:52] "GET / HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:52] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:52] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:52] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:52] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:52] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:52] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:52] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:52] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:52] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:52] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:53] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:53] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:53] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:53] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:53] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:53] "GET /static/news/js/detail.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:53] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:53] "GET /static/news/images/worm.jpg HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:53] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:53] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:53] "GET /static/news/images/focus_icons.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:53] "GET /static/news/images/reply_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:53] "GET /static/news/images/zan_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:53] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:53] "GET /static/news/images/collect_icons.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:20:53] "GET /static/news/images/comment_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:21:00] "POST /user/followed_user HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 282-049-504
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:00] "GET /news/1157 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:00] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:00] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:00] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:00] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:00] "GET /static/news/js/detail.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:00] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:00] "GET /static/news/images/worm.jpg HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:00] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:00] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:00] "GET /static/news/images/focus_icons.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:00] "GET /static/news/images/reply_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:00] "GET /static/news/images/zan_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:00] "GET /static/news/images/collect_icons.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:00] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:00] "GET /static/news/images/comment_icon.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:02] "POST /user/followed_user HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:11] "GET /user/ HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:11] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:11] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:11] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:11] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:11] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:11] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:11] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:11] "GET /user/user_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:12] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:15] "GET /user/followed_user HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:15] "GET /static/news/css/jquery.pagination.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:15] "GET /static/news/js/jquery.pagination.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:15] "GET /static/news/js/user_follow.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:15] "GET /static/news/js/page_control.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:15] "GET /static/news/images/cat.jpg HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:15] "GET /static/news/images/focus_icons.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:23:19] "POST /user/followed_user HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 282-049-504
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:24:37] "GET /user/ HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:24:37] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:24:37] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:24:37] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:24:37] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:24:37] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:24:37] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:24:37] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:24:37] "GET /user/user_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:24:37] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:24:39] "GET /user/followed_user HTTP/1.1" 500 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:24:39] "GET /user/followed_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:24:39] "GET /user/followed_user?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:24:39] "GET /user/followed_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:24:39] "GET /user/followed_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 282-049-504
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:25:23] "GET /user/ HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:25:23] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:25:23] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:25:23] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:25:23] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:25:23] "GET /static/news/js/jquery.form.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:25:23] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:25:24] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:25:24] "GET /user/user_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:25:24] "GET /static/news/js/user_base_info.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:25:25] "GET /user/followed_user HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:25:25] "GET /static/news/css/jquery.pagination.css HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:25:25] "GET /static/news/js/jquery.pagination.min.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:25:25] "GET /static/news/js/user_follow.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:25:25] "GET /static/news/js/page_control.js HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:25:25] "GET /static/news/images/cat.jpg HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:25:25] "GET /static/news/images/focus_icons.png HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:25:36] "GET /user/ HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:25:36] "GET /user/user_info HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:25:37] "GET / HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:25:37] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 11:25:39] "GET /news/1157 HTTP/1.1" 200 -

@@ -53,6 +53,12 @@ def news_details(news_id):
         current_app.logger.error(e)
         return jsonify(errno=RET.DBERR, errmsg=error_map[RET.DBERR])
 
+    # 判断是否关注了该作者
+    is_followed = False
+    if user and news.user:
+        if news.user in user.followed:
+            is_followed = True
+
     # 查询新闻中那些评论是被该用户点赞的
     comment_list = []
     for comment in comments:
@@ -64,7 +70,7 @@ def news_details(news_id):
         comment_dict['is_comment_like'] = is_comment_like
         comment_list.append(comment_dict)
 
-    return render_template("news/detail.html", news=news.to_dict(), rank_list=rank_list, user=user.to_dict(), comment_list=comment_list, is_collected=is_collected)
+    return render_template("news/detail.html", news=news.to_dict(), rank_list=rank_list, user=user.to_dict(), comment_list=comment_list, is_collected=is_collected, is_followed=is_followed)
 
 
 # 收藏新闻
@@ -186,7 +192,6 @@ def news_comment():
     except BaseException as e:
         current_app.logger.error(e)
         return jsonify(errno=RET.DBERR, errmsg=error_map[RET.DBERR])
-    print("============")
     if not news:
         return jsonify(errno=RET.NODATA, errmsg=error_map[RET.NODATA])
 
@@ -213,7 +218,6 @@ def news_comment():
         current_app.logger.error(e)
         db.session.rollback()
         return jsonify(errno=RET.DBERR, errmsg=error_map[RET.DBERR])
-    print("+++++++++++++++++++++++++++++")
     return jsonify(errno=RET.OK, errmsg=error_map[RET.OK], data=comment.to_dict())
 
 

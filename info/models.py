@@ -132,7 +132,7 @@ class News(BaseModel, db.Model):
             "source": self.source,
             "digest": self.digest,
             "create_time": self.create_time.strftime("%Y-%m-%d %H:%M:%S"),
-            "index_image_url": constants.QINIU_DOMIN_PREFIX + self.index_image_url,
+            "index_image_url": self.index_image_url,
             "clicks": self.clicks,
         }
         return resp_dict
@@ -148,7 +148,7 @@ class News(BaseModel, db.Model):
             "comments_count": self.comments.count(),
             "clicks": self.clicks,
             "category": self.category.to_dict(),
-            "index_image_url": constants.QINIU_DOMIN_PREFIX + self.index_image_url,
+            "index_image_url": self.index_image_url,
             "author": self.user.to_dict() if self.user else None
         }
         return resp_dict
