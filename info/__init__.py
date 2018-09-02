@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template, g
 from flask_migrate import Migrate
 from flask_session import Session
 from flask_sqlalchemy import SQLAlchemy
@@ -8,6 +8,7 @@ from logging.handlers import RotatingFileHandler
 from config import config_dict
 
 # 将数据库操作对象全局话,方便其他文件操作数据库
+
 db = None
 sr = None
 
@@ -56,6 +57,8 @@ def create_app(type):
     app.register_blueprint(news_blu)
     from info.modules.user import user_blu
     app.register_blueprint(user_blu)
+    from info.modules.admin import admin_blu
+    app.register_blueprint(admin_blu)
 
     # 配置日志文件
     set_log()
@@ -66,6 +69,15 @@ def create_app(type):
     # 添加自定义的过滤器
     from info.common import index_convert
     app.add_template_filter(index_convert, "index_convert")
+
+    from info.common import user_login_data
+    # 监听404错误
+    @app.errorhandler(404)
+    @user_login_data
+    def page_not_fond(e):
+        user = g.user
+        user = user.to_dict() if user else None
+        return render_template("news/404.html", user=user)
 
     return app
 

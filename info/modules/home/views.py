@@ -52,9 +52,9 @@ def get_news_list():
     except BaseException as e:
         return jsonify(errno=RET.PARAMERR, errmsg=error_map[RET.PARAMERR])
 
-    filter_list = []
+    filter_list = [News.status == 0]
     if cid != 1:
-        filter_list = [News.category_id == cid]
+        filter_list.append(News.category_id == cid)
 
     # 从数据库中取出新闻列表
     try:

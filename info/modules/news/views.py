@@ -17,7 +17,6 @@ from info.utils.response_code import RET, error_map
 @user_login_data
 def news_details(news_id):
     news = None
-    print(news_id)
 
     # 根据id取出新闻内容
     try:
@@ -42,9 +41,7 @@ def news_details(news_id):
             is_collected = True
 
     # 将用户登录信息传到模板中
-    # user1 = g.user.to_dict() if g.user else None
     user = g.user
-    # print("user1",user1.id)
 
     # 将当前新闻的评论取出传到模板中渲染
     try:
