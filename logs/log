@@ -4008,3 +4008,16 @@ INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_i
 INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 12:17:54] "GET /favicon.ico HTTP/1.1" 200 -
 INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 12:17:56] "GET / HTTP/1.1" 200 -
 INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 12:17:56] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/elvira/桌面/myRepository/InfoNews/main.py', reloading
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 282-049-504
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 282-049-504
+ERROR main.py:32 (pymysql.err.IntegrityError) (1048, "Column 'nick_name' cannot be null") [SQL: 'INSERT INTO info_user (create_time, update_time, nick_name, password_hash, mobile, avatar_url, last_login, is_admin, signature, gender) VALUES (%(create_time)s, %(update_time)s, %(nick_name)s, %(password_hash)s, %(mobile)s, %(avatar_url)s, %(last_login)s, %(is_admin)s, %(signature)s, %(gender)s)'] [parameters: {'mobile': '18315302010', 'password_hash': 'pbkdf2:sha256:50000$MiHVSZF6$228c5f2e15a7c249e1d83163463c52f1ebb9f35342d1d84c25e4e79d380122a2', 'avatar_url': None, 'is_admin': 1, 'last_login': datetime.datetime(2018, 9, 2, 12, 32, 9, 955645), 'create_time': datetime.datetime(2018, 9, 2, 12, 32, 9, 955614), 'signature': None, 'gender': 'MAN', 'update_time': datetime.datetime(2018, 9, 2, 12, 32, 9, 955638), 'nick_name': None}] (Background on this error at: http://sqlalche.me/e/gkpj)
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 282-049-504
