@@ -1,4 +1,4 @@
-from flask import render_template, request, session, url_for, current_app, redirect
+from flask import render_template, request, session, url_for, current_app, redirect, g
 
 from info.models import User
 from info.modules.admin import admin_blu
@@ -37,7 +37,6 @@ def login():
 
 @admin_blu.route('/index', methods=['GET', 'POST'])
 def index():
-    print(111)
     return render_template("admin/index.html")
 
 
