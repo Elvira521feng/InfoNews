@@ -35,7 +35,7 @@ def login():
     return redirect(url_for("admin.index"))
 
 
-@admin_blu.route('/', methods=['GET', 'POST'])
+@admin_blu.route('/index', methods=['GET', 'POST'])
 def index():
     print(111)
     return render_template("admin/index.html")
@@ -43,4 +43,6 @@ def index():
 
 @admin_blu.route("/logout")
 def logout():
-    return render_template("admin/index.html")
+    session.pop("user_id", None)
+    session.pop("is_admin", None)
+    return redirect("/")

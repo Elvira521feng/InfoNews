@@ -4194,3 +4194,11 @@ INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_i
 INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 20:28:49] "GET /admin/login HTTP/1.1" 200 -
 INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 20:28:55] "POST /admin/login HTTP/1.1" 302 -
 INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88 127.0.0.1 - - [02/Sep/2018 20:28:55] "GET /admin/ HTTP/1.1" 200 -
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/elvira/桌面/myRepository/InfoNews/info/modules/admin/__init__.py', reloading
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 282-049-504
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Detected change in '/home/elvira/桌面/myRepository/InfoNews/info/modules/passport/views.py', reloading
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Restarting with stat
+WARNING /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger is active!
+INFO /home/elvira/.virtualenvs/py3_flask/lib/python3.5/site-packages/werkzeug/_internal.py:88  * Debugger PIN: 282-049-504
